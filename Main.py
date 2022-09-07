@@ -1,12 +1,12 @@
 class Node:
-    def _init_(self, data=None):
+    def __init__(self, data=None):
         self.data = data
         self.previous = self
         self.next = self
 
 
 class DoublyCircularLinkedList:
-    def _init_(self):
+    def __init__(self):
         self.head = None
         self.count = 0
 
